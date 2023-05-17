@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import Sidebar from './Componants/Allpages/Sidebar';
 import Home from './Componants/Allpages/Home';
@@ -7,8 +7,10 @@ import Home from './Componants/Allpages/Home';
 function App() {
   return (
     <div className="App">
-     {/* <Sidebar/> */}
-     <Home/>
+      <div className='main_cont'>
+      <Sidebar/>
+      <Home/>
+      </div>
      
     </div>
   );

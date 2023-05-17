@@ -5,3 +5,8 @@
     background: transparent;
    
 }
+.main_cont {
+    display: flex;
+    justify-content: space-around;
+    gap: 21px;
+}
