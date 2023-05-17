@@ -1,6 +1,6 @@
 .main-sidebar{
     width: 200px;
-    height: 58vh;
+    height: fit-content;
     /* background-color: transparent; */
     box-shadow: 1px 0 3px gray;
     padding: 10px 8px;

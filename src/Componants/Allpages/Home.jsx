@@ -15,8 +15,8 @@ import Hidecontent from './Invantry'
 import { Link } from 'react-router-dom'
 import Invantry from './Invantry'
 function Home() {
-    const [data, setData] = useState(null);
-    const [selectedItemId, setSelectedItemId] = useState(null);
+    const [data, setData] = useState([]);
+    const [selectedItemId, setSelectedItemId] = useState([]);
     const [hidedata, setHideData] = useState(true);
   
     useEffect(() => {
@@ -30,9 +30,9 @@ function Home() {
         });
     }, []);
   
-    if (!data) {
-      return <p>Loading...</p>;
-    }
+    // if (!data) {
+    //   return <p>Loading...</p>;
+    // }
   
     const toggleHideData = (itemId) => {
       setSelectedItemId(itemId);
