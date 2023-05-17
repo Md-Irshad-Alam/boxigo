@@ -1,0 +1,150 @@
+.main-sidebar{
+    position: absolute;
+    top: 10vh;
+    width: 200px;
+    background-color: transparent;
+    box-shadow: 5px 0  15px gray;
+    padding:10px 8px;
+
+}
+#line{
+    width: 4px;
+    height: 34px;
+    background-color: red;
+
+}
+
+.content{
+    
+   width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 7px;
+    text-transform: uppercase;
+  
+
+}
+
+/* home csss start */
+
+.arrow_symb{
+    width: 28px;
+    height: 25px;
+    box-shadow: 5px 0 7px gray;
+    border-radius: 50%;
+}
+.address{
+   
+
+    
+
+}
+.address-content {
+   
+    line-height: 1;
+}
+.address-container {
+   display: flex;
+   justify-content: space-around;
+   box-shadow:  17px 5px 7px 2px floralwhite;
+  
+
+}
+.details-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: -16px;
+    column-gap: 10px;
+}
+
+.details-container{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        justify-content: center;
+        align-items: center;
+}
+#move-btn {
+    border: 3px solid #d90c0c;
+    padding: 6px 9px;
+    outline: none;
+}
+#quote-btn {
+       
+       padding: 7px 15px;
+       outline: none;
+       background: #e5560b;
+       border: none;
+       color: white;
+}
+
+/* hidecontaner */
+/* .hide-container{
+    display: none;
+} */
+.hidefalse{
+    display: none;
+    transition: all 2s linear ease-in-out;
+}
+.main-content-hi {
+  
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 110px;
+}
+.aditional {
+    display: flex;
+    justify-content: space-between;
+    /* width: 90vw; */
+    height: 39px;
+}
+.inf-container {
+  
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-content: center;
+    width: 87vw;
+}
+#hide-btn {
+    background: black;
+    color: white;
+    padding: 2px 8px;
+}
+/* \\ invantory part */
+.invantry {
+    margin: auto;
+   
+}
+.invatru-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  17px 5px 7px 2px floralwhite;
+    padding: 6px 18px;
+}
+.content-p {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* gap: 5px; */
+}
+#count {
+    width: 12px;
+    height: 19px;
+    margin: auto;
+    background: red;
+    border-radius: 102%;
+    margin-left: 5px;
+    position: relative;
+    top: 0;
+    padding: 1px;
+}
+#name {
+    text-transform: uppercase;
+    font-weight: 600;
+}
