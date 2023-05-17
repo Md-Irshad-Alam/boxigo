@@ -144,6 +144,7 @@ function Home() {
          </div>
        ))}
      </div>
+    <h1 style={{color:"#e3e3e3"}}>hello</h1>
      <Invantry data={data}/>
    </div>
    </>

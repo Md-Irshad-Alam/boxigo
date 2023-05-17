@@ -4,7 +4,7 @@
     /* background-color: transparent; */
     box-shadow: 1px 0 3px gray;
     padding: 10px 8px;
-    margin-top: 75px;
+    margin-top: 100px;
 
 }
 #line{
@@ -34,11 +34,10 @@
     box-shadow: 1px 0 3px gray;
     border-radius: 50%;
 }
-.address{
-   
 
-    
-
+.address {
+    width: 72vw;
+    padding: 30px 21px;
 }
 .address-content {
    
@@ -111,7 +110,7 @@
     flex-direction: column;
     justify-content: center;
     place-content: center;
-    width: 87vw;
+    width: 68vw;
 }
 #hide-btn {
     background: black;

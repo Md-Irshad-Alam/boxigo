@@ -1,12 +1,14 @@
 .App {
     width: 80vw;
-    height: 100vh;
+   
     margin: auto;
     background: transparent;
+    box-shadow: 8px 0 3px aliceblue
    
 }
 .main_cont {
     display: flex;
     justify-content: space-around;
-    gap: 21px;
+    width: 77vw;
+    
 }
