@@ -30,9 +30,9 @@ function Home() {
         });
     }, []);
   
-    // if (!data) {
-    //   return <p>Loading...</p>;
-    // }
+    if (!data) {
+      return <p>Loading...</p>;
+    }
   
     const toggleHideData = (itemId) => {
       setSelectedItemId(itemId);
